@@ -10972,3 +10972,68 @@ nav#sideNav {background-color: rgb(141,133,254);}
     padding-bottom: 5rem;
   }
 }
+
+.conference-photo {
+  border: 1px solid #ccc; /* Gray border */
+  padding: 4px; /* Padding around the image */
+  background-color: #fff; /* White background */
+  text-align: center; /* Center-align text */
+  margin-bottom: 20px; /* Space below each image */
+}
+
+.conference-photo img {
+  width: 100%; /* Full width of the container */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* This will cover the area without distorting ratio */
+  border-radius: 4px; /* Optional: rounds the corners of the images */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for better visibility */
+}
+
+.photo-caption {
+  margin-top: 8px; /* Space above caption */
+  color: #666; /* Dark gray text color */
+  font-size: 0.9em; /* Slightly smaller text */
+}
+
+#news {
+  background-color: #f9f9f9;
+  border-left: 5px solid #4A90E2;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-icon {
+  font-size: 24px;
+  color: #4A90E2;
+  margin-right: 15px;
+}
+
+.news-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  color: #2a2a2a;
+}
+
+.text-muted {
+  font-size: 0.9em;
+  color: #666;
+}
